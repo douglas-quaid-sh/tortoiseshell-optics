@@ -3,6 +3,75 @@
   padding: 0;
 }
 
+html {
+  font-size: 14px;
+}
+
+/* Utilities */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header / NAV */
+
+header {
+  background-image: url(../images/glasses-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
 header .container {
+
+}
+
+.nav-wrap {
+  background-color: cadetblue;
   display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.logo-wrap {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+
+}
+
+nav span a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-km {
+  margin: 10rem 0;
+  padding: 1.5rem 5rem;
+}
+
+/* BENEFITS */
+
+.benefits-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+/* ABOUT */
+
+.about-wrap {
+  display: flex;
+  justify-content: center;
+}
+.about {
+  width:35%;
+}
+
+/* FOOTER */
+
+footer .copyright{
+  display: flex;
+  align-items: center;
 }
