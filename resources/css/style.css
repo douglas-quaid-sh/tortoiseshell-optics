@@ -210,7 +210,7 @@ nav ul li a {
   display: inline-block;
   background-color: cadetblue;
   font-weight: bold;
-  padding: 0.5rem 0rem;
+  padding: 0.5rem 1.25rem;
   min-width: 10rem;
   color: #fff;
   text-transform: uppercase;
@@ -238,6 +238,7 @@ nav ul li a {
   .about-title {
     width:100%;
     text-align: center;
+    padding: 0.5rem 0rem;
   }
   .about-content {
     margin: 1rem 0.5rem;
