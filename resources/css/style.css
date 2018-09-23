@@ -4,7 +4,9 @@
 }
 
 html {
-  font-size: 14px;
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
 }
 
 /* Utilities */
@@ -13,43 +15,61 @@ html {
   margin: 0 auto;
 }
 
+.oversized-container {
+  max-width: 1032px;
+}
+
 /* Header / NAV */
 
 header {
   background-image: url(../images/glasses-bg.png);
   background-size: cover;
   background-position: center;
+  padding-top: 1rem;
 }
 
-header .container {
-
-}
-
-.nav-wrap {
+header .nav-wrap {
   background-color: cadetblue;
   display: flex;
   align-items: center;
   color: #fff;
   justify-content: space-between;
+  padding: 0 1rem;
 }
 
-.logo-wrap {
+header .logo-wrap {
   display: flex;
   align-items: center;
-}
-
-nav {
 
 }
 
-nav span a {
+header .logo-wrap img {
+  height: 1.5rem;
+  padding: 0 1rem;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+nav ul li a {
   color: #fff;
   text-decoration: none;
 }
 
 .hero-km {
-  margin: 10rem 0;
+  padding: 10rem 0;
+  margin: 0 auto;
+  text-align: right;
+}
+.hero-km h1 {
   padding: 1.5rem 5rem;
+  background-color: #fff;
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 2rem;
+  display: inline-block;
 }
 
 /* BENEFITS */
@@ -57,6 +77,10 @@ nav span a {
 .benefits-wrap {
   display: flex;
   justify-content: center;
+}
+
+.benefit {
+  margin: 3rem;
 }
 
 /* ABOUT */
