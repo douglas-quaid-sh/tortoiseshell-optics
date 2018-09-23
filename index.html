@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Tortoiseshell Optics</title>
-    <script src=""> </script>
+    <script src="./resources/js/script.js"> </script>
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="./resources/css/style.css">
     <script src=""> </script>
@@ -14,14 +14,19 @@
     <header>
       <div class="hero">
         <div class="container nav-wrap">
-          <div class="logo-wrap">
-            <img src="./resources/images/logo-white.png" />
-            <span>
-              Tortoiseshell Optics
-            </span>
+          <div class="menu-toggle-wrap">
+            <div class="logo-wrap">
+              <img src="./resources/images/logo-white.png" />
+              <span>
+                Tortoiseshell Optics
+              </span>
+            </div>
+          <div onclick="toggleMenu()" class="menu-toggle">
+            Menu
           </div>
-        <nav>
-          <ul>
+        </div>
+        <nav id="main-nav">
+          <ul class="dropdown-content">
             <li>
               <a href="">
                 Services
@@ -50,25 +55,19 @@
     <section>
       <div class="benefits-wrap">
         <div class="benefit">
-          <div class="benefit-image">
-            <img src="./resources/images/paper-icon.png"/>
-          </div>
+          <img src="./resources/images/paper-icon.png"/>
           <div class="benefit-title">
             Comprehensive Exams
           </div>
         </div>
         <div class="benefit">
-          <div class="benefit-image">
-            <img src="./resources/images/ruler-icon.png"/>
-          </div>
+          <img src="./resources/images/ruler-icon.png"/>
           <div class="benefit-title">
             Custom Fittings
           </div>
         </div>
         <div class="benefit">
-          <div class="benefit-image">
-            <img src="./resources/images/truck-icon.png"/>
-          </div>
+          <img src="./resources/images/truck-icon.png"/>
           <div class="benefit-title">
             Fast Delivery
           </div>
